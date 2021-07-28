@@ -140,9 +140,9 @@ var config = {
       description: '2012-2013',
       location: { 
           center: { lon: 36.29568, lat: 33.51582 },
-          zoom: 14,
+          zoom: 16,
           pitch: 60.00,
-          bearing: -128.88
+          bearing:-47.38
               },
       mapAnimation: "flyTo",
       rotateAnimation: true,
@@ -159,9 +159,9 @@ var config = {
       description: 'Feb /2014 – April/2017',
       location: {
         center: [54.445417332210184,24.422985086482136],
-        zoom: 14.52,
+        zoom: 16,
         pitch: 60.00,
-        bearing: -47.42
+        bearing:-47.38
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
