@@ -69,7 +69,7 @@ var config = {
           bearing: -33.38
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [{}],
       onChapterExit: [],
@@ -142,10 +142,10 @@ var config = {
           center: { lon: 36.29568, lat: 33.51582 },
           zoom: 14,
           pitch: 80.00,
-          bearing:-47.38
+          bearing:60.38
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [{}],
       onChapterExit: [],
