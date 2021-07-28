@@ -23,6 +23,8 @@ var config = {
 	style: 'mapbox://styles/raghadestanbouli/ckrfh6dgt2ggy17oazqz8m8vo',
     accessToken: 'pk.eyJ1IjoicmFnaGFkZXN0YW5ib3VsaSIsImEiOiJja21vdmE1cWgyOHYxMnVtZ2EweTlzNW9rIn0.pH1YN5MUUxqb-py-3V6fcg',
     showMarkers: false,
+    use3dTerrain: true,
+    title: "SCROLL THE MAP TO VIEW EACH STOP ALONG THE JOURNEY.",
     // markerColor: 'green',
     theme: 'liberty',
     alignment: 'left',
@@ -40,8 +42,8 @@ var config = {
     image: './Images/Screenshot-01.png',
     description: 'Desire to learn by focusing on every project detail to develop a career in GIS',
     location: {
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
     },
@@ -86,7 +88,7 @@ var config = {
     id: 'SlideNum_0',
     hidden: false,
     title: "Diploma in civil engineering",
-    image: "./Images/Damascus_University.png",
+    image: "./images/Damascus_University.png",
     description: '2005-2008',
     location: {
         center: [36.27875,33.51397],
@@ -131,7 +133,7 @@ var config = {
     id: 'SlideNum_1',
     hidden: false,
     title: "GIS Specialist ",
-    image: "./Images/4c.png",
+    image: "./images/4c.png",
     description: '2009-2013',
     location: { 
         center: { lon: 36.29567, lat: 33.51578 },
@@ -174,7 +176,7 @@ var config = {
     id: 'SlideNum_2',
     hidden: false,
     title: "GIS Specialist ",
-    image: "./Images/KA.png",
+    image: "./images/KA.png",
     description: '2012-2013',
     location: { 
         center: { lon: 36.29568, lat: 33.51582 },
@@ -214,7 +216,7 @@ var config = {
     id: 'SlideNum_3',
     hidden: false,
     title: "Graphic designer",
-    image: "./Images/rcuae.png",
+    image: "./images/rcuae.png",
     description: 'Feb /2014 – April/2017',
     location: {
         center: [54.38224,24.46772],
@@ -249,7 +251,7 @@ var config = {
     id: 'SlideNum_4',
     hidden: false,
     title: "Khatib & Alami, ",
-    image: "./Images/KA.png",
+    image: "./images/KA.png",
     description: 'May/2015 - May/2016',
     location: { 
         center: [55.39006807596946, 25.340331539744568],
@@ -282,8 +284,8 @@ var config = {
     hidden: true,
 
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -308,8 +310,8 @@ var config = {
     id: 'SlideNum_6',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -334,8 +336,8 @@ var config = {
     id: 'SlideNum_7',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -360,8 +362,8 @@ var config = {
     id: 'SlideNum_8',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -386,8 +388,8 @@ var config = {
     id: 'SlideNum_9',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -411,8 +413,8 @@ var config = {
     id: 'SlideNum_10',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -436,8 +438,8 @@ var config = {
     id: 'SlideNum_11',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -462,8 +464,8 @@ var config = {
     id: 'SlideNum_12',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -491,8 +493,8 @@ var config = {
     image: './Images/TestImage2.png',
     description: 'mcgill',
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -517,8 +519,8 @@ var config = {
     id: 'SlideNum_14',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -543,8 +545,8 @@ var config = {
     id: 'SlideNum_15',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -569,8 +571,8 @@ var config = {
     id: 'SlideNum_16',
     hidden: true,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -594,8 +596,8 @@ var config = {
     id: 'SlideNum_17',
     hidden: false,
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
@@ -617,8 +619,9 @@ var config = {
 //18
 {
     id: 'SlideNum_18',
+    hidden: true,
     title: 'Certificate in Geographic Information Systems - Applications Specialist',
-    image: "./Images/fleming.png",
+    image: "./images/fleming.png",
     description: '2020 – 2021 ',
     location: { 
 		center: [-78.37437530785537,44.26691251148637],
@@ -647,10 +650,10 @@ var config = {
     id: 'SlideNum_19',
     hidden: false,
     location: { 
-		center: [-78.37437530785537,44.26691251148637],
-		zoom: 4,
-		pitch: 60.00,
-		bearing: -114.62,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
+        pitch: 0.00,
+        bearing: 0.00
         },
     onChapterEnter: [
 
@@ -672,7 +675,7 @@ var config = {
     id: 'SlideNum_20',
     hidden: true,
     title: 'Certificate in Computers and Information Technology',
-    image: "./Images/mcgill.png",
+    image: "./images/mcgill.png",
     description: '2019-2022 (Ongoing)',
     location: { 
         center: { lon: -73.57777, lat: 45.50527 },
@@ -698,8 +701,8 @@ var config = {
     hidden: true,
     image: './Images/Screenshot-02.png',
     location: { 
-        center: { lon: -81.88715, lat: 41.02239 },
-        zoom: 2.19,
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
         },
