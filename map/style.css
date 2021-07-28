@@ -1,3 +1,30 @@
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fddbc7;
+  border-radius: 10px;
+  height: 200px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #58595c; 
+}
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -69,7 +96,7 @@ body {
     margin: 0 auto;
   }
   .lefty {
-    width: 30vw;
+    width: 25%;
     margin-left: 5vw;
   }
   .righty {
