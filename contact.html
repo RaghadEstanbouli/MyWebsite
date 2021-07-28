@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VANRITTO</title>
+    <!-- Link to the CSS Style sheet -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link to the JavaScript sheet -->
+    <script src="vanritto.js"></script>
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+		<!--navbar-->
+		<div class="navbar">
+			<div class="topnav" id="myTopnav">
+				<a href="index.html" id="home">HOME</a>
+				<div class="dropdown">
+					<button class="dropbtn">OUR PROJECT <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="AboutMe.html"><i class="fa fa-globe"></i> ABOUT ME</a>
+						<a href="project.html"><i class='fas fa-map'></i> MY PROJECTS</a>
+						<a href="skills.html"><i class="fa fa-user"></i> MY SKILLS</a>
+					</div>
+				</div>
+				<a href="contact.html"><i class="fa fa-envelope"></i> CONTACT ME</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</div>
+		<!--End Navbar-->
+
+    <!--HEADER-->
+    <div class="header">
+        <img id="headerimg" src="images/logobanner.png" alt="logobanner" height="100%">
+    </div>
+    <div id="headertitle">
+        <div class="headertext">CONTACT US</div>
+    </div>
+    <!--END HEADER-->
+
+
+    <!--CONTENT-->
+
+    <div class="paper">
+        <!--DATA ENTRY FORM-->
+        <!--Web Form Reference: https://www.w3docs.com/snippets/html/how-to-create-mailto-forms.html-->
+
+
+        <form action="mailto:Vanritto.2021@gmail.com?subject=Comments from the webpage" target="_blank" method="POST"
+            enctype="text/plain">
+            <div class="row2">
+                <div class="col-25">
+                    <label for="name">Name:
+                </div>
+                <div class="col-75">
+                    <input type="text" name="Name" id="name" />
+                    </label>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="col-25">
+                    <label for="email">Email:
+                </div>
+                <div class="col-75">
+                    <input type="email" name="Email" id="email" />
+                    </label>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="col-25">
+                    <label for="comments">Comments:
+                </div>
+                <div class="col-75">
+                    <textarea name="Comments" rows="12" cols="20">Send your comments to us.</textarea>
+                    </label>
+
+                </div>
+            </div>
+            <div class="row2">
+                <div class="col-75">
+                    <input type="submit" name="Submit" value="Send" />
+                </div>
+            </div>
+        </form>
+        <!--END DATA ENTRY FORM-->
+    </div>
+
+    <!--END VANRITTO CONTACT INFO-->
+
+    <!-- END CONTENT -->
+
+    <!-- FOOTER -->
+    <div>
+        <div class="footer">
+            <footer>
+                <p><a href="https://www.instagram.com/THE_LIBERTYPROJECT/" target="_blank"
+                        class="fa fa-instagram w3-hover-opacity"></a><span> | </span><a href="index.html">Home
+                    </a><span> | </span><a href="contact.html"><i class="fa fa-arrow-up"></i> Back To Top</a></p>
+            </footer>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+
+</body>
+
+</html>
