@@ -25,7 +25,7 @@ var config = {
       image: './Images/Screenshot-01.png',
       description: 'Desire to learn by focusing on every project detail to develop a career in GIS',
       location: {
-        center: { lon: -37.40457, lat: 16.14472 },
+        center: { lon: -27.67905, lat: 41.85173 },
         zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
@@ -194,7 +194,7 @@ var config = {
       hidden: false,
       image: './Images/Screenshot-02.png',
       location: { 
-        center: { lon: -37.40457, lat: 16.14472 },
+        center: { lon: -27.67905, lat: 41.85173 },
         zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
