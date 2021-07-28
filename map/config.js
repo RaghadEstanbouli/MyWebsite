@@ -141,7 +141,7 @@ var config = {
       location: { 
           center: { lon: 36.29568, lat: 33.51582 },
           zoom: 14,
-          pitch: 60.00,
+          pitch: 80.00,
           bearing:-47.38
       },
       mapAnimation: "flyTo",
@@ -158,10 +158,10 @@ var config = {
       image: "./Images/rcuae.png",
       description: 'Feb /2014 – April/2017',
       location: {
-          center: [54.38224,24.46772],
-          zoom: 13.01,
-          pitch: 60.00,
-          bearing: -59.42
+        center: [54.445417332210184,24.422985086482136],
+        zoom: 14.52,
+        pitch: 60.00,
+        bearing: -47.42
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
