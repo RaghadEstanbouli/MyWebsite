@@ -617,6 +617,9 @@ var config = {
 //18
 {
     id: 'SlideNum_18',
+    title: 'Certificate in Geographic Information Systems - Applications Specialist',
+    image: "./images/fleming.png",
+    description: '2020 – 2021 ',
     location: { 
 		center: [-78.37437530785537,44.26691251148637],
 		zoom: 9.93,
