@@ -25,10 +25,10 @@ var config = {
       image: './Images/Screenshot-01.png',
       description: 'Desire to learn by focusing on every project detail to develop a career in GIS',
       location: {
-          center: { lon: -81.88715, lat: 41.02239 },
-          zoom: 2.19,
-          pitch: 0.00,
-          bearing: 0.00
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
+        pitch: 0.00,
+        bearing: 0.00
       },
       nimation: "flyTo",
       rotateAnimation: false,
@@ -104,10 +104,10 @@ var config = {
           center: [54.38224,24.46772],
           zoom: 13.01,
           pitch: 60.00,
-          bearing: 163.35
+          bearing: -59.42
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [{}],
       onChapterExit: [],
@@ -123,10 +123,10 @@ var config = {
           center: [55.39006807596946, 25.340331539744568],
       zoom: 12.84,
       pitch: 60.00,
-      bearing: -114.62,
+      bearing: -59.42,
           },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [{}],
       onChapterExit: [],
@@ -134,8 +134,7 @@ var config = {
     {
       id: 'fleming_id',
       hidden: false,
-      alignment: "right",
-
+      alignment: "left",
       title: 'Certificate in Geographic Information Systems - Applications Specialist',
       image: "./images/fleming.png",
       description: '2020 – 2021 ',
@@ -143,7 +142,7 @@ var config = {
       center: [-78.37437530785537,44.26691251148637],
       zoom: 9.93,
       pitch: 60.00,
-      bearing: -114.62,
+      bearing: -59.42,
           },
       mapAnimation: "flyTo",
       rotateAnimation: false,
