@@ -140,7 +140,7 @@ var config = {
       description: '2012-2013',
       location: { 
           center: { lon: 36.29568, lat: 33.51582 },
-          zoom: 16,
+          zoom: 14.5,
           pitch: 60.00,
           bearing:-47.38
               },
@@ -159,7 +159,7 @@ var config = {
       description: 'Feb /2014 – April/2017',
       location: {
         center: [54.445417332210184,24.422985086482136],
-        zoom: 16,
+        zoom: 14.5,
         pitch: 60.00,
         bearing:-47.38
       },
