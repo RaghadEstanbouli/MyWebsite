@@ -25,10 +25,10 @@ var config = {
       image: './Images/Screenshot-01.png',
       description: 'Desire to learn by focusing on every project detail to develop a career in GIS',
       location: {
-        center: { lon: -27.67905, lat: 41.85173 },
-        zoom: 1.59,
-        pitch: 0.00,
-        bearing: 0.00
+center: { lon: -42.53906, lat: 11.17840 },
+zoom: 1.00,
+pitch: 0.00,
+bearing: 0.00
       },
       nimation: "flyTo",
       rotateAnimation: false,
@@ -194,10 +194,10 @@ var config = {
       hidden: false,
       image: './Images/Screenshot-02.png',
       location: { 
-        center: { lon: -27.67905, lat: 41.85173 },
-        zoom: 1.59,
-        pitch: 0.00,
-        bearing: 0.00
+center: { lon: -42.53906, lat: 11.17840 },
+zoom: 1.00,
+pitch: 0.00,
+bearing: 0.00
           },
       mapAnimation: "flyTo",
       rotateAnimation: false,
