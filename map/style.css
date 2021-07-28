@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, arial;
+  }
+  a,
+  a:visited {
+    color: #eeeeee;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #b6b6b6;
+  }
+  
+  #map {
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+  }
+  
+  #header {
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    background-color: #475561d8;
+  }
+  #header h1,
+  #header h2,
+  #header p {
+    margin: 0;
+    padding: 2vh 2vw;
+    text-align: center;
+    color: #eeeeee;
+    font-family: helvetica;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+  }
+  #footer {
+    width: 100%;
+    min-height: 5vh;
+    background-color: #475561d8;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+  }
+  
+  #footer p {
+    font-size: 13px;
+    color: #eeeeee;
+    font-family: helvetica;
+    text-align: center;
+    padding: 2vh 2vw;
+    margin: 0;
+    /* padding: 10px 0px 10px; */
+    /* line-height: 10px; */
+  }
+  
+  #features {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+  .centered {
+    width: 20vw;
+    margin: 0 auto;
+  }
+  .lefty {
+    width: 20vw;
+    margin-left: 15vw;
+  }
+  .righty {
+    width: 20vw;
+    margin-left: 62vw;
+  }
+  .fully {
+    width: 100%;
+    margin: auto;
+  }
+  .light {
+    color: #444;
+    background-color: #fafafa;
+  }
+  .dark {
+    color: #fafafa;
+    background-color: #444;
+  }
+  
+  /* Chapters appearance whilst transisitioning between */
+  .step {
+    padding-bottom: 45vh;
+    margin-bottom: 6vh;
+    opacity: 0.95;
+  }
+  
+  /** Opacity of chapters whilst it is active */
+  .step.active {
+    opacity: 0.9;
+  }
+  
+  /** Headings for Chapters */
+  #features h3 {
+        background-color: #f4a582;
+      margin: 0;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      box-sizing:border-size;
+      color:#4d4d4d;
+      text-align: center;
+      width: 100%;
+      font-size: 1.2em;
+  }
+  
+  #features p {
+    font-size: 1.2em;
+    font-family: helvetica;
+    color: #333435;
+    padding: 5%;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    margin: 2px 8px 4px;
+    text-align: center;
+  }
+  
+  .liberty {
+    background-color: #f4a582;
+  }
+  
+  /* Chapter slides */
+  .step div {
+    padding: 18px 0px 18px;
+    line-height: 25px;
+    border-radius: 8px;
+  }
+  
+  /* Images within the chapters */
+  .step img {
+    width: 100%;
+    padding-top:3%; 
+    background-color:#fefdeff3;
+  }
+  
+  @media (max-width: 750px) {
+    .centered,
+    .lefty,
+    .righty,
+    .fully {
+      width: 40vw;
+      margin: 0 auto;
+    }
+    #features h3 {
+      background-color: #f4a582;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-sizing:border-size;
+    color:#4d4d4d;
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+}
+  }
+  
+  /* Fix issue on mobile browser where scroll breaks  */
+  .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+  .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan
+    .mapboxgl-canvas {
+    touch-action: unset;
+  }
+
+
+
+
+/* slide in between the main slides*/
+/*********between Stop 1-2*******************/
+
+#SlideNum_5 {
+
+    visibility: hidden;
+}
+#SlideNum_6 {
+
+    visibility: hidden;
+}
+#SlideNum_7 {
+
+    visibility: hidden;
+}
+#SlideNum_8 {
+
+    visibility: hidden;
+}
+#SlideNum_9 {
+
+    visibility: hidden;
+}
+#SlideNum_10 {
+
+    visibility: hidden;
+}
+#SlideNum_11 {
+
+    visibility: hidden;
+}
+#SlideNum_12 {
+
+    visibility: hidden;
+}
+#SlideNum_13 {
+
+    visibility: hidden;
+}
+#SlideNum_14 {
+
+    visibility: hidden;
+} 
+
+ #SlideNum_15 {
+
+    visibility: hidden;
+}
+#SlideNum_16 {
+
+    visibility: hidden;
+}
+#SlideNum_17 {
+
+    visibility: hidden;
+}
+#SlideNum_19 {
+
+    visibility: hidden;
+}
+/*#SlideNum_16 {
+
+    visibility: hidden;
+}
+#SlideNum_17 {
+
+    visibility: hidden;
+}
+#SlideNum_18 {
+
+    visibility: hidden;
+} */
+
+/*********between Stop 3-4*******************/
