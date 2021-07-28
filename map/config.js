@@ -194,10 +194,10 @@ var config = {
       hidden: false,
       image: './Images/Screenshot-02.png',
       location: { 
-          center: { lon: -81.88715, lat: 41.02239 },
-          zoom: 2.19,
-          pitch: 0.00,
-          bearing: 0.00
+        center: { lon: -27.67905, lat: 41.85173 },
+        zoom: 1.59,
+        pitch: 0.00,
+        bearing: 0.00
           },
       mapAnimation: "flyTo",
       rotateAnimation: false,
