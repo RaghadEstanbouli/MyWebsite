@@ -103,25 +103,26 @@ a:hover {
 
 /** Headings for Chapters */
 #features h3 {
-	  background-color: #f4a582;
-    margin: 0;
-    padding-top: 3%;
-	padding-bottom: 3%;
-	box-sizing:border-size;
-    color:#4d4d4d;
-    text-align: center;
-    width: 100%;
-    font-size: 1.6em;
+        background-color: #f4a582;
+      margin: 0;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      box-sizing:border-size;
+      color:#4d4d4d;
+      text-align: center;
+      width: 100%;
+      font-size: 1.2em;
 }
 
 #features p {
-  font-size: 15px;
-  font-family: helvetica;
-  color: #333435;
-  padding: 5%;
-  letter-spacing: 0.3px;
-  font-weight: 500;
-  margin: 2px 8px 4px;
+    font-size: 1.2em;
+    font-family: helvetica;
+    color: #333435;
+    padding: 5%;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    margin: 2px 8px 4px;
+    text-align: center;
 }
 
 .liberty {
