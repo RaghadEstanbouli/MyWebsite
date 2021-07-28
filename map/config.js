@@ -25,7 +25,7 @@ var config = {
       image: './Images/Screenshot-01.png',
       description: 'Desire to learn by focusing on every project detail<a href= https://www.mapbox.com/ target=_blank>Mapbox</a> to develop a career in GIS',
       location: {
-        center: { lon: -37.67905, lat: 41.85173 },
+        center: { lon: -57.67905, lat: 41.85173 },
         zoom: 1.59,
         pitch: 0.00,
         bearing: 0.00
