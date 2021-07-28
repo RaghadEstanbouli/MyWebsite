@@ -1,0 +1,73 @@
+{  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.29168059607525,33.515320330347826, 0]
+      },
+      "properties": {
+        "name": "Terrace Bay",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "styleHash": "48999a20",
+        "styleMapHash": {
+          "normal": "#icon-1899-0288D1-nodesc-normal",
+          "highlight": "#icon-1899-0288D1-nodesc-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.445417332210184,24.422985086482136, 0]
+      },
+      "properties": {
+        "name": "White River",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "styleHash": "48999a20",
+        "styleMapHash": {
+          "normal": "#icon-1899-0288D1-nodesc-normal",
+          "highlight": "#icon-1899-0288D1-nodesc-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.39006807596946, 25.340331539744568, 0]
+      },
+      "properties": {
+        "name": "Wawa",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "styleHash": "48999a20",
+        "styleMapHash": {
+          "normal": "#icon-1899-0288D1-nodesc-normal",
+          "highlight": "#icon-1899-0288D1-nodesc-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.37437530785537,44.26691251148637, 0]
+      },
+      "properties": {
+        "name": "Lake Superior Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "styleHash": "48999a20",
+        "styleMapHash": {
+          "normal": "#icon-1899-0288D1-nodesc-normal",
+          "highlight": "#icon-1899-0288D1-nodesc-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    }
+  ]
+}
