@@ -88,7 +88,7 @@ var config = {
     id: 'SlideNum_0',
     hidden: false,
     title: "Diploma in civil engineering",
-    image: "./images/Damascus_University.png",
+    image: "./Images/Damascus_University.png",
     description: '2005-2008',
     location: {
         center: [36.27875,33.51397],
@@ -133,7 +133,7 @@ var config = {
     id: 'SlideNum_1',
     hidden: false,
     title: "GIS Specialist ",
-    image: "./images/4c.png",
+    image: "./Images/4c.png",
     description: '2009-2013',
     location: { 
         center: { lon: 36.29567, lat: 33.51578 },
@@ -176,7 +176,7 @@ var config = {
     id: 'SlideNum_2',
     hidden: false,
     title: "GIS Specialist ",
-    image: "./images/KA.png",
+    image: "./Images/KA.png",
     description: '2012-2013',
     location: { 
         center: { lon: 36.29568, lat: 33.51582 },
@@ -216,7 +216,7 @@ var config = {
     id: 'SlideNum_3',
     hidden: false,
     title: "Graphic designer",
-    image: "./images/rcuae.png",
+    image: "./Images/rcuae.png",
     description: 'Feb /2014 – April/2017',
     location: {
         center: [54.38224,24.46772],
@@ -251,7 +251,7 @@ var config = {
     id: 'SlideNum_4',
     hidden: false,
     title: "Khatib & Alami, ",
-    image: "./images/KA.png",
+    image: "./Images/KA.png",
     description: 'May/2015 - May/2016',
     location: { 
         center: [55.39006807596946, 25.340331539744568],
@@ -621,7 +621,7 @@ var config = {
     id: 'SlideNum_18',
     hidden: true,
     title: 'Certificate in Geographic Information Systems - Applications Specialist',
-    image: "./images/fleming.png",
+    image: "./Images/fleming.png",
     description: '2020 – 2021 ',
     location: { 
 		center: [-78.37437530785537,44.26691251148637],
@@ -675,7 +675,7 @@ var config = {
     id: 'SlideNum_20',
     hidden: true,
     title: 'Certificate in Computers and Information Technology',
-    image: "./images/mcgill.png",
+    image: "./Images/mcgill.png",
     description: '2019-2022 (Ongoing)',
     location: { 
         center: { lon: -73.57777, lat: 45.50527 },
