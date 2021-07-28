@@ -192,7 +192,7 @@ var config = {
       id: "finish_id",
       alignment: "left",
       hidden: false,
-      image: './images/Screenshot-02.png',
+      image: './Images/Screenshot-02.png',
       location: { 
           center: { lon: -81.88715, lat: 41.02239 },
           zoom: 2.19,
