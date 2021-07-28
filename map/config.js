@@ -142,8 +142,8 @@ var config = {
           center: { lon: 36.29568, lat: 33.51582 },
           zoom: 14,
           pitch: 80.00,
-          bearing:60.38
-      },
+          bearing: -128.88
+              },
       mapAnimation: "flyTo",
       rotateAnimation: true,
       callback: "",
