@@ -132,17 +132,17 @@ h1 {
 /************** HEADER **************/
 
 .header {
-  padding-top: 0px;
   opacity: 15%;
-  /* padding-top: 36px; */
+  padding-top: 200px;
   overflow: hidden; 
   position:relative;
+  margin-bottom: 50px;
  
 }
 
 .headertext {
     position: absolute;
-    top: 15%;
+    top: 200px;
     left: 50%;
     transform: translate(-50%,-50%);
     align-items: center;
@@ -437,6 +437,8 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   box-sizing: border-box;
+  overflow: auto;
+
 }
 
 
@@ -451,8 +453,12 @@ h1 {
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
+  border-radius: 14px;
   box-shadow: 6px 6px 1px rgb(46 43 43 / 23%);
-  background-image: url(images/HillShadeblack.jpg);}
+  background-image: url(images/HillShadeblack.jpg);
+  height: 40vh;
+
+}
 
 
 .skills h1{
@@ -463,16 +469,19 @@ font-size: 1.5rem;
 white-space: nowrap;
  */
  /* color:#4d4d4d; */
+ white-space: nowrap;
+
 position: absolute;
-top: 20%;
+top: 70%;
 box-sizing: content-box;
-width: 50%;
+width:85%;
 margin: 0px;
 left: 50%;
-font-size: medium;
+font-size: 0.8vw;
 transform: translateX(-50%);
 font-weight: bolder;
 line-height: 1.8;
+width: max-content;
 }
 
 
@@ -512,6 +521,8 @@ line-height: 1.8;
   transition: .5s ease;
   transition-delay: 0.5s;
   box-sizing: border-box;
+  overflow: auto;
+
 }
 
 .skills:hover .overlay{
@@ -527,7 +538,8 @@ line-height: 1.8;
   height: 100%;
   padding:15%;
   padding-top: 5%;
-  box-sizing: border-box
+  box-sizing: border-box;
+  padding-bottom: 12%;
 }
 
 .overlayinside p{
@@ -536,6 +548,7 @@ line-height: 1.8;
   margin-left: 0%;
   margin-right: 0%;
   line-height: 0.8;
+
   color:#f4a582;
   text-align: left;
   font-size: 0.8em;
@@ -563,37 +576,26 @@ line-height: 1.8;
   .skills {
     width: auto;
     padding: 0;
-    }}
-@media screen and (max-width: 1400px) {
+    height: 30vh;
+    }
 .overlay {
   overflow: auto;
 }}
-@media screen and (max-width: 1000px){
-.overlay p{
-  /* padding-left: 10%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 10%;
-  font-size: 160%; */
-}}
-
-@media screen and (max-width: 1000px){
-.skills h1{
-  /* font-size: 110%; */
-  
-  
-}
-.skills img{
-}
+@media screen and (max-width:1200px) {
+  .row {
+display: block;  }
+  .skills{
+    height: 50%;
+  }
+  .skills h1{
+    font-size: medium;
+  }
+  }
 
 
-}
-@media screen and (max-width:1380px) {
-.row {
-  display:block;
-  
-}
-}
+/* @media screen and (max-width: 500px){
+} */
+
 
 
 /************** PROJECT *******************/
@@ -612,6 +614,8 @@ line-height: 1.8;
   border-radius: 4px;
   box-sizing: border-box;
   margin-bottom: 5%;
+  margin-top: 50px;
+
   
 }
 .paper input[name="tab-control"] {
@@ -1134,6 +1138,7 @@ img {vertical-align: middle;}
   color: #58595c;
   font-size: 16px;
   overflow: auto;
+  max-height: 100vh;
 }
 
 
