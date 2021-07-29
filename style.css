@@ -894,6 +894,32 @@ position: relative;}
   position: relative;}
 .mySlides5 {display: none;
   position: relative;}
+.mySlides6 {display: none;
+  position: relative;}
+.mySlides7 {display: none;
+  position: relative;}
+.mySlides8 {display: none;
+  position: relative;}
+.mySlides9 {display: none;
+  position: relative;}
+.mySlides10{display: none;
+position: relative;}
+.mySlides11 {display: none;
+  position: relative;}
+.mySlides12 {display: none;
+  position: relative;}
+.mySlides13 {display: none;
+  position: relative;}
+.mySlides14 {display: none;
+  position: relative;}
+.mySlides15 {display: none;
+  position: relative;}
+.mySlides16 {display: none;
+  position: relative;}
+.mySlides17 {display: none;
+  position: relative;}
+.mySlides18 {display: none;
+  position: relative;}
 img {vertical-align: middle;}
 
 .slideshow-container {
@@ -921,7 +947,71 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
-
+.slideshow-container6 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container7 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container8 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container9 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container10 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container11 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container12 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container13 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container14 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container15 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container16 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container17 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container18 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -1009,6 +1099,130 @@ img {vertical-align: middle;}
   padding: 0.7%;
   border-radius: 5%;
 }
+.dotcontainer5{
+  position: absolute;
+  top: 25%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer6{
+  position: absolute;
+  top: 47%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer7{
+  position: absolute;
+  top: 69%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer8{
+  position: absolute;
+  top: 91%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}.dotcontainer9{
+  position: absolute;
+  top: 25%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer10{
+  position: absolute;
+  top: 47%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer11{
+  position: absolute;
+  top: 69%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer12{
+  position: absolute;
+  top: 91%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}.dotcontainer13{
+  position: absolute;
+  top: 25%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer14{
+  position: absolute;
+  top: 47%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer15{
+  position: absolute;
+  top: 69%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer16{
+  position: absolute;
+  top: 91%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer17{
+  position: absolute;
+  top: 69%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
+.dotcontainer18{
+  position: absolute;
+  top: 91%;
+  left: 58%;
+  transform: translateX(-40%);
+  background-color: #4d4d4d;
+  padding: 0.7%;
+  border-radius: 5%;
+}
 .dot {
   cursor: pointer;
   height: 15px;
@@ -1059,6 +1273,136 @@ img {vertical-align: middle;}
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+.dot6 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot7 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot8 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot9 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot10 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot11 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot12 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot13 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot14 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot15 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot16 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot17 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot18 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 .active, .dot:hover {
   background-color: #717171;
 }
@@ -1072,6 +1416,45 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 .active, .dot5:hover {
+  background-color: #717171;
+}
+.active, .dot6:hover {
+  background-color: #717171;
+}
+.active, .dot7:hover {
+  background-color: #717171;
+}
+.active, .dot8:hover {
+  background-color: #717171;
+}
+.active, .dot9:hover {
+  background-color: #717171;
+}
+.active, .dot10:hover {
+  background-color: #717171;
+}
+.active, .dot11:hover {
+  background-color: #717171;
+}
+.active, .dot12:hover {
+  background-color: #717171;
+}
+.active, .dot13:hover {
+  background-color: #717171;
+}
+.active, .dot14:hover {
+  background-color: #717171;
+}
+.active, .dot15:hover {
+  background-color: #717171;
+}
+.active, .dot16:hover {
+  background-color: #717171;
+}
+.active, .dot17:hover {
+  background-color: #717171;
+}
+.active, .dot18:hover {
   background-color: #717171;
 }
 /* Fading animation */
@@ -1139,6 +1522,7 @@ img {vertical-align: middle;}
   font-size: 16px;
   overflow: auto;
   max-height: 100vh;
+  height: 70vh;
 }
 
 
@@ -1147,7 +1531,7 @@ img {vertical-align: middle;}
   width: 100%;
   margin: 0px;
   padding: 0%;
-  height: 100%;
+  height: 70vh;
 }
 .textleft p{
   margin: 0px;
