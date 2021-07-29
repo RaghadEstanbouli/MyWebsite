@@ -1140,13 +1140,10 @@ img {vertical-align: middle;}
 }
 /* The dots/bullets/indicators */
 .dotcontainer{
-  position: absolute;
-  top: 25%;
-  left: 58%;
-  transform: translateX(-40%);
   background-color: #4d4d4d;
   padding: 0.7%;
   border-radius: 5%;
+  display: none;
 }
 .dotcontainer2{
   position: absolute;
@@ -1567,8 +1564,11 @@ img {vertical-align: middle;}
   text-align: left;
   line-height: 1.6;
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  box-sizing: border-box
+  grid-template-columns: 1fr 2fr;
+  box-sizing: border-box;
+  background-color: #4d4d4d55;
+  height: 70vh;
+
   
 }
 .content2 h1{
@@ -1588,26 +1588,33 @@ img {vertical-align: middle;}
 }
 .textleft {
   /* background-color: #f0f0f07c; */
-  background-color: #4d4d4d55;
   /* float: left; */
-  /* width: 25%; */
-  padding: 2%;
+  width: 100%; 
+  padding: 0%;
   padding-top: 0px;
   padding-bottom: 0px;
-  color: #58595c;
+  color: #bababa;
   font-size: 16px;
   overflow: auto;
-  max-height: 100vh;
-  height: 70vh;
+  line-height: 1.8;
 }
 
+.imageimage {
 
+  padding: 5%;
+
+
+}
 
 .imageimage img{
-  width: 100%;
   margin: 0px;
-  padding: 0%;
-  height: 70vh;
+  padding-top:1%;
+  padding-bottom:2%;
+  width: 100%;
+
+}
+.textleft h1{
+  padding: 2%;
 }
 .textleft p{
   margin: 0px;
@@ -1657,7 +1664,22 @@ img {vertical-align: middle;}
   padding-left: 10%;
 }
 
+@media only screen and (max-width: 1200px) {
+  .content2 {display:block; 
+  height: 100%;
+}
 
+.imageimage {
+
+
+}
+  .textleft {
+    /* background-color: #f0f0f07c; */
+    /* float: left; */
+    width: 100%;
+    font-size: 1.5em;
+  }
+}
 
 /*************** FOOTER ******************/
 
