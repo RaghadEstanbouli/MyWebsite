@@ -23,7 +23,7 @@ var config = {
       hidden: false,
       title: 'My career path',
       image: './Images/Screenshot-01.png',
-      description: 'Desire to learn by focusing on every project detail<a href= https://www.mapbox.com/ target=_blank>Mapbox</a> to develop a career in GIS',
+      description: 'Desire to learn by focusing on every project detail to develop a career in GIS',
       location: {
         center: { lon: -57.67905, lat: 41.85173 },
         zoom: 1.59,
