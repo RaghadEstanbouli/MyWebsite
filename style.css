@@ -565,12 +565,18 @@ width: max-content;
   color: white;
 }
   
-.html {width: 90%; background-color: #67001f; }
-.css {width: 80%; background-color: #b2182b;}
-.js {width: 65%; background-color: #d6604d;}
-.php {width: 60%; background-color: #f4a582;}
-
-
+.skill90 {width: 90%; background-color: #67001f; }
+.skill80 {width: 80%; background-color: #b2182b;}
+.skill70 {width: 70%; background-color: #d6604d;}
+.skill60 {width: 60%; background-color: #f4a582;}
+.skill50 {width: 50%; background-color: #67001f; }
+.skill40 {width: 40%; background-color: #b2182b;}
+.skill30 {width: 30%; background-color: #d6604d;}
+.skill20 {width: 20%; background-color: #f4a582;}
+.skill10 {width: 10%; background-color: #67001f; }
+.skill65 {width: 65%; background-color: #b2182b;}
+.skill75 {width: 75%; background-color: #d6604d;}
+.skill55 {width: 55%; background-color: #f4a582;}
 /* RESPONSIVE */
 @media screen and (max-width: 1400px) {
   .skills {
