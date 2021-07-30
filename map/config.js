@@ -8,11 +8,11 @@ var config = {
   theme: "liberty",
   // true or false to turn 3D terrain on/off
   use3dTerrain: true,
-  title: "SCROLL THE MAP TO VIEW EACH STOP ALONG THE JOURNEY.",
+  // title: "SCROLL THE MAP TO VIEW EACH STOP ALONG THE JOURNEY.",
   // subtitle: 'A descriptive and interesting subtitle to draw in the reader',
   // byline: 'By a Digital Storyteller',
-  footer:
-    "Made with <a href= https://www.mapbox.com/ target=_blank>Mapbox</a> resources. Content provided by The Liberty Project.",
+  // footer:
+  //   "Made with <a href= https://www.mapbox.com/ target=_blank>Mapbox</a> resources. Content provided by The Liberty Project.",
   // Chapter Content- use description to alter text
   // image for the image link
   // Location for camera positioning
