@@ -330,7 +330,6 @@ h1 {
   background: #1a1a1a6b;
   /* padding: 1%;
   margin-top: 1%; */
-  margin-bottom: 1%;
   width: 100%;
    box-shadow: 0 0px 24px rgba(14, 13, 13, 0.25),
     0 18px 2px #1a1a1a;
@@ -344,14 +343,26 @@ h1 {
     height:auto;
 
   }
+  /* .landing ul{
+    border:1px solid white;
+    padding: 10%;
+    padding-left: 3%;
+    padding-right: 4%;
+    line-height: 1.8;
+    color:white;
+    text-align: left;
+    width: 50vw;
+    font-size: 1.3em;
+    margin-top: 8%;
 
+  } */
 
 	#myName{
 	  position: absolute;
-		top: 10%;
+		top: 3%;
 		right:  55%;
     left: 10%;
-    padding: 7%;
+    padding: 3%;
     padding-left: 1%;
     width:initial;
   	}
@@ -381,15 +392,15 @@ h1 {
     font-size: 2.5em;
 	}
 
-  #myName p{
+  .intro{
     border:1px solid white;
-    padding: 10%;
+    padding: 3%;
     padding-left: 3%;
     padding-right: 4%;
     line-height: 1.8;
     color:white;
     text-align: left;
-    width: 50vw;
+    width: 48.5vw;
     font-size: 1.3em;
     margin-top: 8%;
     
@@ -469,9 +480,20 @@ h1 {
       /* height: 70vh; */
       top: 80%;
       right: 1px;
+      padding: 5%;
 
       /* transform: translateX(10%); */
   }
+
+  #myName h1{
+    font-size: 3em;
+
+	}
+
+  #myName h3{
+	  
+    font-size: 4em;
+	}
   #myName{
     top: 1px;
     right:  40%;
@@ -479,8 +501,7 @@ h1 {
     box-sizing: content-box;
   	}
 
-  #myName p{
-    font-size: 2.5em;
+    .intro{
     width: 80vw;
     padding: 10%;
     height: 50vh;
@@ -488,7 +509,7 @@ h1 {
     
 	}
   .clickhere{
-    left: 75%;
+    left: 85%;
     font-size: xx-large;
     
   }
