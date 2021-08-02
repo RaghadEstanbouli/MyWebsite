@@ -8,7 +8,7 @@ var config = {
   theme: "liberty",
   // true or false to turn 3D terrain on/off
   use3dTerrain: true,
-  // title: "SCROLL THE MAP TO VIEW EACH STOP ALONG THE JOURNEY.",
+  title: "SCROLL THE MAP TO VIEW MY JOURNEY.",
   // subtitle: 'A descriptive and interesting subtitle to draw in the reader',
   // byline: 'By a Digital Storyteller',
   // footer:
