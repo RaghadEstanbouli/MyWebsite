@@ -1,14 +1,47 @@
 {  "type": "FeatureCollection",
   "features": [
-
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [36.29168059607525,33.515320330347826, 0]
+        "coordinates": [36.28376483917236,33.509911888077184, 0]
       },
       "properties": {
-        "name": "Terrace Bay",
+        "name": "DU",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "styleHash": "48999a20",
+        "styleMapHash": {
+          "normal": "#icon-1899-0288D1-nodesc-normal",
+          "highlight": "#icon-1899-0288D1-nodesc-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 36.29567,33.51578, 0]
+      },
+      "properties": {
+        "name": "4C",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "styleHash": "48999a20",
+        "styleMapHash": {
+          "normal": "#icon-1899-0288D1-nodesc-normal",
+          "highlight": "#icon-1899-0288D1-nodesc-highlight"
+        },
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.29190,33.51514, 0]
+      },
+      "properties": {
+        "name": "KH",
         "styleUrl": "#icon-1899-0288D1-nodesc",
         "styleHash": "48999a20",
         "styleMapHash": {

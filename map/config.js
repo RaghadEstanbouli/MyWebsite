@@ -120,11 +120,11 @@ var config = {
       image: './Images/Screenshot-01.png',
       description: 'Desire to learn by focusing on every project detail to develop a career in GIS',
       location: {
-        center: { lon: 36.29568, lat: 33.51582 },
+        center: { lon: 36.29559, lat: 33.51566 },
         zoom: 14,
         pitch: 60.00,
-        bearing:-47.38
-      },
+        bearing: -138.27
+            },
       nimation: "flyTo",
       rotateAnimation: true,
       callback: "",
@@ -139,11 +139,11 @@ var config = {
       image: "./Images/KA.png",
       description: '2012-2013',
       location: { 
-          center: { lon: 36.29568, lat: 33.51582 },
+        center: { lon: 36.29559, lat: 33.51566 },
           zoom: 14.5,
           pitch: 60.00,
-          bearing:-47.38
-              },
+          bearing: -138.27
+                      },
       mapAnimation: "flyTo",
       rotateAnimation: true,
       callback: "",
