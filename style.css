@@ -1931,6 +1931,7 @@ margin-left: 21%;
    width: 10%;
    margin-top: 6px;
    padding: 5px;
+   margin-right: 10%;
 
  }
  
@@ -1939,6 +1940,8 @@ margin-left: 21%;
    float:left;
    width: 60%;
    margin-top: 6px;
+   margin-left: 4%;
+
  }
  
  @media screen and (max-width: 1408px) {
