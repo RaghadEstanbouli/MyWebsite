@@ -314,20 +314,7 @@ h1 {
     padding:3%;
   }
   
-  
-
-}
-
-@media screen and (max-width: 1000px) {
-  .navbar a {
-    height: 2%;
-    font-size: 1.5em;
-
-  }
-}
-
-@media screen and (max-width: 500px) {
-.fa-caret-down {
+  .fa-caret-down {
     font-size: 3em;
     padding:4%;
   }
@@ -346,6 +333,20 @@ h1 {
 font-size: 3em;
     padding:4%;
   }
+  
+
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar a {
+    height: 2%;
+    font-size: 1.5em;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+
 
 }
     
