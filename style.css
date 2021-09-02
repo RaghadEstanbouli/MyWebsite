@@ -323,48 +323,26 @@ h1 {
   /************ HOME PAGE ***********************/
   /* image (Logo. Full height) */
 .landing {
-    
-  left: 50%;
-  transform: translateX(-50%);
-  position: relative;
   background: #1a1a1a6b;
-  /* padding: 1%;
-  margin-top: 1%; */
   width: 100%;
-   box-shadow: 0 0px 24px rgba(14, 13, 13, 0.25),
-    0 18px 2px #1a1a1a;
-  border-radius: 4px;
-  margin-bottom: 5%;
-  height: 100vh;
+  
   }
 
   .landing img{
     width:100%;
     height:auto;
-
   }
-  /* .landing ul{
-    border:1px solid white;
-    padding: 10%;
-    padding-left: 3%;
-    padding-right: 4%;
-    line-height: 1.8;
-    color:white;
-    text-align: left;
-    width: 50vw;
-    font-size: 1.3em;
-    margin-top: 8%;
-
-  } */
 
 	#myName{
 	  position: absolute;
-		top: 3%;
+		top: 25%;
 		right:  55%;
-    left: 10%;
+    left: 4%;
     padding: 3%;
     padding-left: 1%;
     width:initial;
+    max-height: 70vh;
+    
   	}
   #myName h1{
 	  background-color: #f4a582;
@@ -392,18 +370,24 @@ h1 {
     font-size: 2.5em;
 	}
 
+
   .intro{
-    border:1px solid white;
-    padding: 3%;
-    padding-left: 3%;
+    /* border:1px solid #1a1a1a96; */
+    padding: 8%;
     padding-right: 4%;
-    line-height: 1.8;
+    line-height: 1.7;
     color:white;
     text-align: left;
-    width: 48.5vw;
-    font-size: 1.3em;
-    margin-top: 8%;
-    
+    width: 55vw;
+    font-size: 1.1em;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 50%;
+  
+    background-color: #1a1a1a96;
+    /* overflow: auto; */
+    box-sizing: border-box;
 	}
 
 
@@ -426,10 +410,9 @@ h1 {
 
   }
   .clickhere{
-    transform: translateX(150%);
-    position: absolute;
-    left: 50%;
-    
+     position: absolute; 
+    left: 50vw;
+    bottom: 77%;
   }
   .titlebanner {
     position: static;
@@ -453,8 +436,21 @@ h1 {
 	    width: 40vw;
 
 }
+@media screen and (max-width: 1380px) {
+  #myName{
+		top: 15%;
+  }
 
-@media screen and (max-width: 1000px) {
+  .intro{
+    /* border:1px solid #1a1a1a96; */
+    
+    width: 60vw;
+    font-size: 1.1em;
+    height: 45vh;
+  overflow: auto;
+	}}
+
+@media screen and (max-width: 1100px) {
 .titlebanner {
     position:absolute;
     margin-top: 50%;
@@ -473,45 +469,52 @@ h1 {
       padding: 2%;
   }
   }
-  @media screen and (max-width: 1000px) {
-    .landing img {
-      position: absolute;
-      width: 200%;
-      /* height: 70vh; */
-      top: 80%;
+  @media screen and (max-width: 1100px) {
+    .landing{
+      /* position: absolute;
+       width: 200%;
+      top: 0%;
       right: 1px;
-      padding: 5%;
-
-      /* transform: translateX(10%); */
+      padding: 5%; */
+      height: 100%;
+      
   }
 
   #myName h1{
-    font-size: 3em;
+    font-size: 2em;
 
 	}
 
   #myName h3{
 	  
-    font-size: 4em;
+    font-size: 3em;
 	}
   #myName{
+    position: relative;
+
     top: 1px;
     right:  40%;
-    left: 4%;
+    left: 0%;
+    margin-left: 4%;
+    margin-right: 4%;
+
     box-sizing: content-box;
   	}
 
     .intro{
-    width: 80vw;
+    width: 90vw;
     padding: 10%;
-    height: 50vh;
-    overflow: auto;
+    height: 90%;
+    background: #1a1a1a; 
+
+
     
 	}
   .clickhere{
-    left: 85%;
-    font-size: xx-large;
-    
+    /* left: 85%; */
+    font-size: large;
+    top: 20%;
+    position: static;
   }
 
 }
