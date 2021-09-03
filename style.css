@@ -38,7 +38,7 @@ h4 {
 
 /* Main headings on every Page */
 h1 {
-  color: #fff;
+  color: #1a1a1a;
   font-size: 19px;
   background-color: #f4a582;
   padding: 8px 12px;
@@ -46,10 +46,11 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 70px;
-  letter-spacing: 4px; 
+  letter-spacing: 2px; 
   overflow: hidden;
   width: fit-content;
   margin-bottom: 10px;
+  mix-blend-mode: screen;
 }
 
 
@@ -385,7 +386,7 @@ font-size: 3em;
     text-align: left;
     width: fit-content;
     font-size: 1.6em;
-
+    mix-blend-mode: normal;
 	}
 
   #myName h3{
@@ -511,13 +512,13 @@ font-size: 3em;
   }
 
   #myName h1{
-    font-size: 2em;
+    font-size: 3em;
 
 	}
 
   #myName h3{
 	  
-    font-size: 3em;
+    font-size: 4em;
 	}
   #myName{
     position: relative;
@@ -600,6 +601,8 @@ transform: translateX(-50%);
 font-weight: bolder;
 line-height: 1.8;
 width: max-content;
+
+  mix-blend-mode: revert;
 }
 
 
@@ -712,7 +715,8 @@ display: block;  }
     height: 50%;
   }
   .skills h1{
-    font-size: medium;
+    font-size: x-large;
+    top: 40%;
   }
   }
 
