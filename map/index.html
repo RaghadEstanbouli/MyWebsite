@@ -300,20 +300,56 @@
             type: "geojson",
             data: "./data/directions.geojson",
           });
+          // map.addLayer({
+          //   id: "route",
+          //   type: "line",
+          //   source: "route",
+          //   layout: {
+          //     "line-sort-key": 1,
+          //     "line-join": "round",
+          //     "line-cap": "round",
+          //   },
+          //   paint: {
+          //     "line-color": "#777",
+          //     "line-width": 10,
+          //   },
+          // });
           map.addLayer({
-            id: "route",
-            type: "line",
-            source: "route",
-            layout: {
-              "line-sort-key": 1,
-              "line-join": "round",
-              "line-cap": "round",
-            },
-            paint: {
-              "line-color": "#777",
-              "line-width": 10,
-            },
-          });
+	'id':'route',
+	'type': 'line',
+	'source': 'raghad',
+	'generateId': true,
+	'paint': {
+	'line-color': '#ffeba8',
+	'line-opacity': 0.1,
+	'line-width': 100,
+	'line-blur':30
+	}
+	});
+	map.addLayer({
+	'id':'route',
+	'type': 'line',
+	'source': 'raghad',
+	'generateId': true,
+	'paint': {
+	'line-color': '#ffd447',
+	'line-opacity': 0.4,
+	'line-width': 50,
+	'line-blur':30
+	}
+	});
+	map.addLayer({
+	'id':'route',
+	'type': 'line',
+	'source': 'raghad',
+	'generateId': true,
+	'paint': {
+	'line-color': '#ffc814',
+	'line-opacity': 0.1,
+	'line-width': 10,
+	'line-blur':0
+	}
+	});
 
           // setup the instance, pass callback functions
           scroller
